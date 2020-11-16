@@ -1,0 +1,27 @@
+﻿@page
+@model RazorPages_OverviewSample.Pages.Modul001.Calc3Model
+@{
+/*Layout = "_Layout2"*/
+//; //Es wird direkt im Shared Verzeichnis nach einer _Layout2 Datei gesucht
+}
+
+<h1>Erste Taschenrechner Implementierung</h1>
+
+<form method="post">
+    <input name="eins" /><br />
+    <input name="zwei" /><br />
+    <button type="submit" asp-page-handler="plus">+</button>
+    <button type="submit" asp-page-handler="minus">-</button>
+
+    @Model.Ergebnis
+</form>
+
+@if(Model.Ergebnis > 0)
+{
+    <p>Kontostand ist über 0></p>
+}
+else
+{
+    <p>Mist ich bin im Minus.....muss schnell weg!</p>
+}
+

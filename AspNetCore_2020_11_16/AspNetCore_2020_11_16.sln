@@ -27,6 +27,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExpressCarImpl", "DevExp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alternatives Beispiel PluginPattern", "Alternatives Beispiel PluginPattern", "{30EF1E31-142D-4EC6-9F5F-D0A0A23C6505}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFB75656-9B46-4665-A2DB-B2AF47C69573}"
+	ProjectSection(SolutionItems) = preProject
+		LinkCollection.txt = LinkCollection.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

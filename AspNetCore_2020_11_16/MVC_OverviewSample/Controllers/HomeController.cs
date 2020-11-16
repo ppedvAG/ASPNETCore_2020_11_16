@@ -19,18 +19,18 @@ namespace MVC_OverviewSample.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() // Ist eine Get-Methode
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy() // Ist eine Get-Methode
         {
             return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Error() // Ist eine Get-Methode
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
