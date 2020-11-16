@@ -1,3 +1,4 @@
+using GoodDependencyLib.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,8 +26,9 @@ namespace RazorPages_OverviewSample
         {
             services.AddRazorPages();
 
-
-            
+            services.AddSingleton(typeof(ICar), typeof(TestCarObj)); //Einmal wird initialisiert und lebt solange die Webseite aktiv läuft.
+            services.AddScoped(typeof(ICar), typeof(TestCarObj2)); // Bei Scope wird pro Request das TestCarObj2 neu instanziiert. 
+            services.AddTransient(typeof(ICar), typeof(TestCarObj2));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

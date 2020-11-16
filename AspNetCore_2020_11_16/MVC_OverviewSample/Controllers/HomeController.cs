@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GoodDependencyLib.Service;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MVC_OverviewSample.Models;
 using System;
@@ -13,7 +14,7 @@ namespace MVC_OverviewSample.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ICar car)
         {
             _logger = logger;
         }

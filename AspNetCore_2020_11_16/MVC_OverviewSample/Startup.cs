@@ -1,3 +1,4 @@
+using GoodDependencyLib.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,10 +26,12 @@ namespace MVC_OverviewSample
         {
             //Kannst alle Dienste oder Feature kann man verfügbar machen. 
             services.AddControllersWithViews();
+
+            services.AddSingleton(typeof(ICar), typeof(TestCarObj));
             //services.AddMvc(); //Sollte Obselete sein, ist die alte Implementierung von MVC.
 
-            
-            
+
+
 
         }
 

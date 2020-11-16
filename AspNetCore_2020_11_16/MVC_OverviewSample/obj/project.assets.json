@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "GoodDependencyLib.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/GoodDependencyLib.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodDependencyLib.Service.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GoodDependencyLib.Service/1.0.0": {
+      "type": "project",
+      "path": "../GoodDependencyLib.Service/GoodDependencyLib.Service.csproj",
+      "msbuildProject": "../GoodDependencyLib.Service/GoodDependencyLib.Service.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "GoodDependencyLib.Service >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\KW4\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodDependencyLib.Service\\GoodDependencyLib.Service.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodDependencyLib.Service\\GoodDependencyLib.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
