@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DevExpressCarImpl/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GoodDependencyLib.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevExpressCarImpl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevExpressCarImpl.dll": {}
+        }
+      },
+      "GoodDependencyLib.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/GoodDependencyLib.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoodDependencyLib.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevExpressCarImpl/1.0.0": {
+      "type": "project",
+      "path": "../DevExpressCarImpl/DevExpressCarImpl.csproj",
+      "msbuildProject": "../DevExpressCarImpl/DevExpressCarImpl.csproj"
+    },
+    "GoodDependencyLib.Service/1.0.0": {
+      "type": "project",
+      "path": "../GoodDependencyLib.Service/GoodDependencyLib.Service.csproj",
+      "msbuildProject": "../GoodDependencyLib.Service/GoodDependencyLib.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "DevExpressCarImpl >= 1.0.0",
+      "GoodDependencyLib.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KW4\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodConsolenAppWithDI\\GoodConsolenAppWithDI.csproj",
+      "projectName": "GoodConsolenAppWithDI",
+      "projectPath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodConsolenAppWithDI\\GoodConsolenAppWithDI.csproj",
+      "packagesPath": "C:\\Users\\KW4\\.nuget\\packages\\",
+      "outputPath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodConsolenAppWithDI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KW4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\DevExpressCarImpl\\DevExpressCarImpl.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\DevExpressCarImpl\\DevExpressCarImpl.csproj"
+            },
+            "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodDependencyLib.Service\\GoodDependencyLib.Service.csproj": {
+              "projectPath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\GoodDependencyLib.Service\\GoodDependencyLib.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

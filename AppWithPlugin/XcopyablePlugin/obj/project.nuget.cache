@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wQGKEQMx7kDzIxHevbuf7i5RbTcZMciL4/U9M7Qdz1c7mYhYsTRQS0kDUfH67IsIR3lmYsYYiw7eodrqDAVLgA==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AppWithPlugin\\XcopyablePlugin\\XcopyablePlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KW4\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

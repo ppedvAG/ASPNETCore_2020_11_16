@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GoodDependencyLib.Service/1.0.0": {
+        "runtime": {
+          "GoodDependencyLib.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoodDependencyLib.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

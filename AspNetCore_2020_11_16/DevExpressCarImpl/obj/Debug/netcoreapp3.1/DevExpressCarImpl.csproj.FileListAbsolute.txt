@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\bin\Debug\netcoreapp3.1\DevExpressCarImpl.deps.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\bin\Debug\netcoreapp3.1\DevExpressCarImpl.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\bin\Debug\netcoreapp3.1\DevExpressCarImpl.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\bin\Debug\netcoreapp3.1\GoodDependencyLib.Service.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\bin\Debug\netcoreapp3.1\GoodDependencyLib.Service.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.csproj.CopyComplete
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DevExpressCarImpl\obj\Debug\netcoreapp3.1\DevExpressCarImpl.pdb
