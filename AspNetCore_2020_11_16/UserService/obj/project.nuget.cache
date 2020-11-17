@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mIKfb9IbOVDofcCMGoR5ogoXMHv0sy1Glqq5Mn4htFm3dtZlLbU94XXs4wxLrSmNwr6VNoN44FpDMphub3lsRw==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCore_2020_11_16\\AspNetCore_2020_11_16\\UserService\\UserService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KW4\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

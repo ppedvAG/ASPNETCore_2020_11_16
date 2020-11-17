@@ -1,0 +1,19 @@
+﻿@page
+@model RazorPages_OverviewSample.Pages.Modul004.PartialViewSample3Model
+@{
+}
+
+
+<h2>Ajax</h2>
+<p><button class="btn btn-primary" id="load">Load</button></p>
+<div id="grid"></div>
+
+@section scripts{
+    <script>
+        $(function () {
+            $('#load').on('click', function () {
+                $('#grid').load('/Modul004/PartialViewSample3?handler=CarPartial');
+            });
+        });
+    </script>
+}

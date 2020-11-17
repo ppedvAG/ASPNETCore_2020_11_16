@@ -1,0 +1,17 @@
+﻿@model RazorPages_OverviewSample.Pages.Modul004.PartialViewSample2Model
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+<table>
+    <tr>
+        <th>Wochentag</th>
+    </tr>
+    @foreach (var item in Model.Tage)
+    {
+        <tr>
+            <td>@item</td>
+        </tr>
+    }
+</table>

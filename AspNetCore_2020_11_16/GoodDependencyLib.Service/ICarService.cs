@@ -7,5 +7,7 @@ namespace GoodDependencyLib.Service
     public interface ICarService
     {
         public void Repair(ICar car);
+
+        public IList<Car> GetAll();
     }
 }

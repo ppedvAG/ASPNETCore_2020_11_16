@@ -1,0 +1,27 @@
+﻿@*@page "{title}"*@
+@*@page "{title?}"*@
+@*@page "{title=first post}"*@
+@*@page "{year}/{month}/{day}/{title}"*@
+
+
+@page "{year:int}/{month:int}/{day:int}/{title}"
+@*@page "{latitude:double?}"        -> Optionaler Parameter mit double*@
+
+@*@page "{id:min(10000)}" Zahlenbereiche angeben*@
+
+@*@page "{username:alpha:minlength(5):maxlength(8)}" Username muss zwischen 5 bis 8 Zeichen lang sein*@
+
+@model RazorPages_OverviewSample.Pages.Modul005.RouteTemplateSample2Model
+@{
+}
+
+<p>Route Template</p>
+
+
+<p>@@page "{title}" Title muss übergeben werden -> Aufruf ->  localhost:12345/Modul005/outeTemplateSample2/ABC</p>
+
+
+<p>@@page "{title?}" Title kann übergeben werden -> Aufruf ->  localhost:12345/Modul005/outeTemplateSample2 oder localhost:12345/Modul005/outeTemplateSample2/ABC</p>
+
+<p>@@page "{title=first post}" Title hat einen Default-Wert hingelegt</p>
+

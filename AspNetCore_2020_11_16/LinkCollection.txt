@@ -1,2 +1,11 @@
 Bootstrap:
 https://getbootstrap.com/docs/4.5/components/alerts/
+
+Razor Pages:
+https://www.learnrazorpages.com/
+
+
+Modul002->RazorReferencePage -> https://docs.microsoft.com/de-de/aspnet/core/mvc/views/razor?view=aspnetcore-5.0
+
+
+

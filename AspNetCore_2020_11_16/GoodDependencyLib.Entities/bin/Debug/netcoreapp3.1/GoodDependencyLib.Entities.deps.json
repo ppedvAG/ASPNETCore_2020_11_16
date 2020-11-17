@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GoodDependencyLib.Entities/1.0.0": {
+        "dependencies": {
+          "GoodDependencyLib.Service": "1.0.0"
+        },
+        "runtime": {
+          "GoodDependencyLib.Entities.dll": {}
+        }
+      },
+      "GoodDependencyLib.Service/1.0.0": {
+        "runtime": {
+          "GoodDependencyLib.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoodDependencyLib.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoodDependencyLib.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

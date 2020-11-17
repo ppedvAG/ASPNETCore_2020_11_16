@@ -6,3 +6,4 @@ C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Service\obj\Debug\netcoreapp3.1\GoodDependencyLib.Service.csproj.CoreCompileInputs.cache
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Service\obj\Debug\netcoreapp3.1\GoodDependencyLib.Service.dll
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Service\obj\Debug\netcoreapp3.1\GoodDependencyLib.Service.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Service\obj\Debug\netcoreapp3.1\GoodDependencyLib.Service.csprojAssemblyReference.cache

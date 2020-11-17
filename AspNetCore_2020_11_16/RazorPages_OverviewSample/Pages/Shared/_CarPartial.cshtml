@@ -1,0 +1,13 @@
+﻿@using GoodDependencyLib.Service;
+@model List<Car>
+<table class="table table-striped">
+    @foreach (Car car in Model)
+    {
+        <tr>
+            <td>@car.Brandt</td>
+            <td>@car.Model</td>
+            <td>@car.Color</td>
+            <td>$@car.ConstructionYear</td>
+        </tr>
+    }
+</table>

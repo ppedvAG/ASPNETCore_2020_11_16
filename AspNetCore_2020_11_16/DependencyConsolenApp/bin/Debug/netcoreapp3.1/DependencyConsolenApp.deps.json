@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DependencyConsolenApp/1.0.0": {
+        "dependencies": {
+          "DependencyLib.Entities": "1.0.0",
+          "DependencyLib.Service": "1.0.0"
+        },
+        "runtime": {
+          "DependencyConsolenApp.dll": {}
+        }
+      },
+      "DependencyLib.Entities/1.0.0": {
+        "runtime": {
+          "DependencyLib.Entities.dll": {}
+        }
+      },
+      "DependencyLib.Service/1.0.0": {
+        "dependencies": {
+          "DependencyLib.Entities": "1.0.0"
+        },
+        "runtime": {
+          "DependencyLib.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DependencyConsolenApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DependencyLib.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DependencyLib.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

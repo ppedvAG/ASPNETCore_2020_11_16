@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GoodConsolenAppWithDI/1.0.0": {
+        "dependencies": {
+          "DevExpressCarImpl": "1.0.0",
+          "GoodDependencyLib.Service": "1.0.0"
+        },
+        "runtime": {
+          "GoodConsolenAppWithDI.dll": {}
+        }
+      },
+      "DevExpressCarImpl/1.0.0": {
+        "dependencies": {
+          "GoodDependencyLib.Service": "1.0.0"
+        },
+        "runtime": {
+          "DevExpressCarImpl.dll": {}
+        }
+      },
+      "GoodDependencyLib.Service/1.0.0": {
+        "runtime": {
+          "GoodDependencyLib.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GoodConsolenAppWithDI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpressCarImpl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoodDependencyLib.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

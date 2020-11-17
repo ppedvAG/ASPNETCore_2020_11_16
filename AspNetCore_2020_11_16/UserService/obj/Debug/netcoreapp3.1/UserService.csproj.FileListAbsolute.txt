@@ -1,0 +1,9 @@
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\bin\Debug\netcoreapp3.1\UserService.deps.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\bin\Debug\netcoreapp3.1\UserService.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\bin\Debug\netcoreapp3.1\UserService.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\obj\Debug\netcoreapp3.1\UserService.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\obj\Debug\netcoreapp3.1\UserService.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\obj\Debug\netcoreapp3.1\UserService.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\obj\Debug\netcoreapp3.1\UserService.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\obj\Debug\netcoreapp3.1\UserService.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\UserService\obj\Debug\netcoreapp3.1\UserService.pdb

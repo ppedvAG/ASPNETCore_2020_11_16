@@ -5,25 +5,25 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Übersicht  AspNetCore Projects", "Übersicht  AspNetCore Projects", "{1C6AC8E2-05F4-4BB1-BBA0-A8EE24A8B0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages_OverviewSample", "RazorPages_OverviewSample\RazorPages_OverviewSample.csproj", "{408DCCCE-EB2F-40EC-9BD4-C0E6F7CF7ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages_OverviewSample", "RazorPages_OverviewSample\RazorPages_OverviewSample.csproj", "{408DCCCE-EB2F-40EC-9BD4-C0E6F7CF7ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_OverviewSample", "MVC_OverviewSample\MVC_OverviewSample.csproj", "{89FE57E4-9D1F-44DA-8A9F-F3D8350373FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_OverviewSample", "MVC_OverviewSample\MVC_OverviewSample.csproj", "{89FE57E4-9D1F-44DA-8A9F-F3D8350373FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Injections", "Dependency Injections", "{82E67990-EFB4-4E11-8D1E-727BA1B61549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyLib.Entities", "DependencyLib\DependencyLib.Entities.csproj", "{084EEB5D-78F6-461D-9231-FA693E979D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyLib.Entities", "DependencyLib\DependencyLib.Entities.csproj", "{084EEB5D-78F6-461D-9231-FA693E979D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyConsolenApp", "DependencyConsolenApp\DependencyConsolenApp.csproj", "{9B3F73FF-7DF0-432B-A7F3-CB3C5F5D4555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyConsolenApp", "DependencyConsolenApp\DependencyConsolenApp.csproj", "{9B3F73FF-7DF0-432B-A7F3-CB3C5F5D4555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyLib.Service", "DependencyLib.Service\DependencyLib.Service.csproj", "{8D51843C-1095-4ACC-8825-8D9697547EA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyLib.Service", "DependencyLib.Service\DependencyLib.Service.csproj", "{8D51843C-1095-4ACC-8825-8D9697547EA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodConsolenAppWithDI", "GoodConsolenAppWithDI\GoodConsolenAppWithDI.csproj", "{5A6AF9EE-A7B6-4DF7-8242-E98BD937E4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodConsolenAppWithDI", "GoodConsolenAppWithDI\GoodConsolenAppWithDI.csproj", "{5A6AF9EE-A7B6-4DF7-8242-E98BD937E4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodDependencyLib.Entities", "GoodDependencyLib.Entities\GoodDependencyLib.Entities.csproj", "{7D2B63B2-362A-439F-8F1C-FCBC1B57B244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodDependencyLib.Entities", "GoodDependencyLib.Entities\GoodDependencyLib.Entities.csproj", "{7D2B63B2-362A-439F-8F1C-FCBC1B57B244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodDependencyLib.Service", "GoodDependencyLib.Service\GoodDependencyLib.Service.csproj", "{5ADCADD6-0D74-4B57-8F2B-B78C3E457248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodDependencyLib.Service", "GoodDependencyLib.Service\GoodDependencyLib.Service.csproj", "{5ADCADD6-0D74-4B57-8F2B-B78C3E457248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExpressCarImpl", "DevExpressCarImpl\DevExpressCarImpl.csproj", "{6BC21862-754A-451D-81B1-BC5B88F2C568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevExpressCarImpl", "DevExpressCarImpl\DevExpressCarImpl.csproj", "{6BC21862-754A-451D-81B1-BC5B88F2C568}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Alternatives Beispiel PluginPattern", "Alternatives Beispiel PluginPattern", "{30EF1E31-142D-4EC6-9F5F-D0A0A23C6505}"
 EndProject
@@ -31,6 +31,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		LinkCollection.txt = LinkCollection.txt
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPageWithRuntimeCompilation", "RazorPageWithRuntimeCompilation\RazorPageWithRuntimeCompilation.csproj", "{0B1ABF0D-EE2B-4AC7-8A2F-B0F3E089FD45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{CA3794BC-FEA8-42EE-884C-B561EABE2229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageWithEF", "RazorPageWithEF\RazorPageWithEF.csproj", "{D9DE1ED2-E883-47EE-A8C0-334C3F1D20D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +80,18 @@ Global
 		{6BC21862-754A-451D-81B1-BC5B88F2C568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC21862-754A-451D-81B1-BC5B88F2C568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC21862-754A-451D-81B1-BC5B88F2C568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1ABF0D-EE2B-4AC7-8A2F-B0F3E089FD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1ABF0D-EE2B-4AC7-8A2F-B0F3E089FD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1ABF0D-EE2B-4AC7-8A2F-B0F3E089FD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1ABF0D-EE2B-4AC7-8A2F-B0F3E089FD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3794BC-FEA8-42EE-884C-B561EABE2229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3794BC-FEA8-42EE-884C-B561EABE2229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3794BC-FEA8-42EE-884C-B561EABE2229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3794BC-FEA8-42EE-884C-B561EABE2229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DE1ED2-E883-47EE-A8C0-334C3F1D20D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DE1ED2-E883-47EE-A8C0-334C3F1D20D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DE1ED2-E883-47EE-A8C0-334C3F1D20D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DE1ED2-E883-47EE-A8C0-334C3F1D20D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +107,7 @@ Global
 		{5ADCADD6-0D74-4B57-8F2B-B78C3E457248} = {82E67990-EFB4-4E11-8D1E-727BA1B61549}
 		{6BC21862-754A-451D-81B1-BC5B88F2C568} = {82E67990-EFB4-4E11-8D1E-727BA1B61549}
 		{30EF1E31-142D-4EC6-9F5F-D0A0A23C6505} = {82E67990-EFB4-4E11-8D1E-727BA1B61549}
+		{0B1ABF0D-EE2B-4AC7-8A2F-B0F3E089FD45} = {1C6AC8E2-05F4-4BB1-BBA0-A8EE24A8B0D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {387709D1-8E46-4F50-904B-F073ED7FEB1D}

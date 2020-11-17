@@ -5,10 +5,13 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RazorPages_OverviewSample.Pages.Modul003;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UserService;
+using Westwind.AspNetCore.LiveReload;
 
 namespace RazorPages_OverviewSample
 {
@@ -24,11 +27,31 @@ namespace RazorPages_OverviewSample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
 
-            services.AddSingleton(typeof(ICar), typeof(TestCarObj)); //Einmal wird initialisiert und lebt solange die Webseite aktiv läuft.
+            services.AddLiveReload(config =>
+            {
+                //// optional - use config instead
+                //config.LiveReloadEnabled = true;
+                //config.FolderToMonitor = Path.GetFullname(Path.Combine(Env.ContentRootPath,"..")) ;
+            });
+
+            // for ASP.NET Core 3.x and later, add Runtime Razor Compilation if using anything Razor
+
+            services.AddRazorPages()
+                .AddRazorRuntimeCompilation()
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AddPageRoute("/Archive/Post", "Post/{year}/{month}/{day}/{title}");
+                    //options.RootDirectory = "/Content"; -> PAge-Verzeichnis wäre hier das Content-Verzeichnis
+                });
+
+
+
+            services.AddSingleton(typeof(ICarService), typeof(CarService)); //Einmal wird initialisiert und lebt solange die Webseite aktiv läuft.
             services.AddScoped(typeof(ICar), typeof(TestCarObj2)); // Bei Scope wird pro Request das TestCarObj2 neu instanziiert. 
-            services.AddTransient(typeof(ICar), typeof(TestCarObj2));
+
+            services.AddScoped(typeof(IUserService), typeof(MyUserService));
+            //services.AddTransient(typeof(ICar), typeof(TestCarObj2));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,12 +68,22 @@ namespace RazorPages_OverviewSample
                 app.UseHsts();
             }
 
+            
+            AppDomain.CurrentDomain.SetData("BildVerzeichnis", env.WebRootPath);
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseLiveReload();
+
+
+            app.MapWhen(context => context.Request.Path.ToString().Contains("imagegen"), subapp =>
+            {
+                subapp.UseThumbnailGen();
+            });
 
             app.UseEndpoints(endpoints =>
             {

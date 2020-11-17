@@ -2,3 +2,17 @@ C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWit
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.AssemblyInfo.cs
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodConsolenAppWithDI.exe
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodConsolenAppWithDI.deps.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodConsolenAppWithDI.runtimeconfig.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodConsolenAppWithDI.runtimeconfig.dev.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodConsolenAppWithDI.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodConsolenAppWithDI.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\DevExpressCarImpl.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodDependencyLib.Service.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\DevExpressCarImpl.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\bin\Debug\netcoreapp3.1\GoodDependencyLib.Service.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.csproj.CopyComplete
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodConsolenAppWithDI\obj\Debug\netcoreapp3.1\GoodConsolenAppWithDI.genruntimeconfig.cache

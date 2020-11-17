@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\bin\Debug\netcoreapp3.1\DependencyLib.Service.deps.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\bin\Debug\netcoreapp3.1\DependencyLib.Service.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\bin\Debug\netcoreapp3.1\DependencyLib.Service.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\bin\Debug\netcoreapp3.1\DependencyLib.Entities.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\bin\Debug\netcoreapp3.1\DependencyLib.Entities.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.csproj.CopyComplete
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\DependencyLib.Service\obj\Debug\netcoreapp3.1\DependencyLib.Service.pdb

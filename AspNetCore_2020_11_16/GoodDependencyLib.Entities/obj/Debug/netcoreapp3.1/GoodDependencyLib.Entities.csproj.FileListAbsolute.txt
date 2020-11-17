@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\bin\Debug\netcoreapp3.1\GoodDependencyLib.Entities.deps.json
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\bin\Debug\netcoreapp3.1\GoodDependencyLib.Entities.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\bin\Debug\netcoreapp3.1\GoodDependencyLib.Entities.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\bin\Debug\netcoreapp3.1\GoodDependencyLib.Service.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\bin\Debug\netcoreapp3.1\GoodDependencyLib.Service.pdb
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.csprojAssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.csproj.CopyComplete
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.dll
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\GoodDependencyLib.Entities\obj\Debug\netcoreapp3.1\GoodDependencyLib.Entities.pdb
