@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
 <h1>Delete</h1>
@@ -19,6 +20,12 @@
             @Html.DisplayFor(model => model.FootballClub.ClubName)
         </dd>
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FootballClub.StadiumName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FootballClub.StadiumName)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.FootballClub.FounderYear)
         </dt>
         <dd class="col-sm-10">
@@ -29,6 +36,12 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.FootballClub.Money)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FootballClub.StadiumSize)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FootballClub.StadiumSize)
         </dd>
     </dl>
     

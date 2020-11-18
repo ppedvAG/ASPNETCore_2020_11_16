@@ -31,8 +31,17 @@ namespace RazorPageWithEF.Pages.Club
         // more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+
+            //Ohne eine [BindProperty] kann man die Formularwerte auch aus dem Request.Form["name"]
+            //string clubName = Request.Form["FootballClub.ClubName"];
+
+
+            if (FootballClub.ClubName.StartsWith("FC"))
+                ModelState.AddModelError("ClubInfo", "Alle Vereine die mit einem FC anfangen, steigen eh bald ab!");
+
             if (!ModelState.IsValid)
             {
+                //Wenn der FootballClub falsch ausgefüllt wurde, dann wird man zu Create-Seite zurück verwiesen
                 return Page();
             }
 

@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
 <h1>Edit</h1>
@@ -20,6 +21,11 @@
                 <span asp-validation-for="FootballClub.ClubName" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="FootballClub.StadiumName" class="control-label"></label>
+                <input asp-for="FootballClub.StadiumName" class="form-control" />
+                <span asp-validation-for="FootballClub.StadiumName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="FootballClub.FounderYear" class="control-label"></label>
                 <input asp-for="FootballClub.FounderYear" class="form-control" />
                 <span asp-validation-for="FootballClub.FounderYear" class="text-danger"></span>
@@ -28,6 +34,11 @@
                 <label asp-for="FootballClub.Money" class="control-label"></label>
                 <input asp-for="FootballClub.Money" class="form-control" />
                 <span asp-validation-for="FootballClub.Money" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FootballClub.StadiumSize" class="control-label"></label>
+                <input asp-for="FootballClub.StadiumSize" class="form-control" />
+                <span asp-validation-for="FootballClub.StadiumSize" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

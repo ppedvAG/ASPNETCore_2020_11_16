@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
 <h1>Create</h1>
@@ -12,11 +13,16 @@
 <div class="row">
     <div class="col-md-4">
         <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div asp-validation-summary="All" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FootballClub.ClubName" class="control-label"></label>
                 <input asp-for="FootballClub.ClubName" class="form-control" />
                 <span asp-validation-for="FootballClub.ClubName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FootballClub.StadiumName" class="control-label"></label>
+                <input asp-for="FootballClub.StadiumName" class="form-control" />
+                <span asp-validation-for="FootballClub.StadiumName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FootballClub.FounderYear" class="control-label"></label>
@@ -28,6 +34,12 @@
                 <input asp-for="FootballClub.Money" class="form-control" />
                 <span asp-validation-for="FootballClub.Money" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="FootballClub.StadiumSize" class="control-label"></label>
+                <input asp-for="FootballClub.StadiumSize" class="form-control" />
+                <span asp-validation-for="FootballClub.StadiumSize" class="text-danger"></span>
+            </div>
+            <div id="ClubInfo"></div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

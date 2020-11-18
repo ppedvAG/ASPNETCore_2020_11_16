@@ -41,11 +41,16 @@ namespace RazorPages_OverviewSample
                 .AddRazorRuntimeCompilation()
                 .AddRazorPagesOptions(options =>
                 {
-                    options.Conventions.AddPageRoute("/Archive/Post", "Post/{year}/{month}/{day}/{title}");
-                    //options.RootDirectory = "/Content"; -> PAge-Verzeichnis wäre hier das Content-Verzeichnis
-                });
+                    options.Conventions.AddPageRoute("/Modul005/Blogs/Overview", "Blogs");
+                    options.Conventions.AddPageRoute("/Modul005/Blogs/Archive/Blogs", "Search/{year}/{month}/{day}");
+                    options.Conventions.AddPageRoute("/index", "/Modul001/{*url}");
+                         //options.RootDirectory = "/Content"; -> PAge-Verzeichnis wäre hier das Content-Verzeichnis
+                     });
 
 
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
 
             services.AddSingleton(typeof(ICarService), typeof(CarService)); //Einmal wird initialisiert und lebt solange die Webseite aktiv läuft.
             services.AddScoped(typeof(ICar), typeof(TestCarObj2)); // Bei Scope wird pro Request das TestCarObj2 neu instanziiert. 
@@ -60,6 +65,7 @@ namespace RazorPages_OverviewSample
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseLiveReload();
             }
             else
             {
@@ -77,7 +83,7 @@ namespace RazorPages_OverviewSample
             app.UseRouting();
 
             app.UseAuthorization();
-            app.UseLiveReload();
+            app.UseSession();
 
 
             app.MapWhen(context => context.Request.Path.ToString().Contains("imagegen"), subapp =>

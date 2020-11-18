@@ -432,3 +432,14 @@ C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_Overvie
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\RouteTemplatesSample.cshtml.g.cs
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\RouteTemplateSample2.cshtml.g.cs
 C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\RouteValuesSample.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\Blogs\Overview.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\Blogs\Archive\Blogs.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\RouteDataDestination.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\RouteDataSource.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul005\Blogs\Archive\Authoren.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul006\QueryStringSample.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul006\Index.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul006\Success.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul006\CookieSample.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul006\SessionShow.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore_2020_11_16\AspNetCore_2020_11_16\RazorPages_OverviewSample\obj\Debug\netcoreapp3.1\Razor\Pages\Modul006\SessionStart.cshtml.g.cs

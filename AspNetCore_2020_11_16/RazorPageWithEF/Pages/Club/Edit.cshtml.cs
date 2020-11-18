@@ -11,6 +11,7 @@ using RazorPageWithEF.Models;
 
 namespace RazorPageWithEF.Pages.Club
 {
+   
     public class EditModel : PageModel
     {
         private readonly RazorPageWithEF.Data.RazorPageWithEFContext _context;

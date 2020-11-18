@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPages_OverviewSample.Pages.Modul006.IndexModel
+@{
+    ViewData["Title"] = "Ein Titel der oben erscheint";
+}
+
+<h2>@ViewData["FromBlub"]</h2>
+
+<form method="post">
+    <input type="text" asp-for="EmailAddress" />
+    <span asp-validation-for="EmailAddress"></span><br />
+    <button>Submit</button>
+</form>

@@ -36,6 +36,9 @@ namespace RazorPageWithEF.Migrations
                     b.Property<int>("Money")
                         .HasColumnType("int");
 
+                    b.Property<string>("StadiumName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("StadiumSize")
                         .HasColumnType("int");
 
